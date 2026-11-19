@@ -1,0 +1,13 @@
+# Local evidence, logs, and generated reports must never be committed.
+evidence/
+reports/
+*.log
+*.tar.gz
+*.tgz
+*.zip
+*.pem
+*.key
+.env
+.env.*
+.DS_Store
+Thumbs.db
